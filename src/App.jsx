@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import ReactMarkdown from 'react-markdown'
 import './App.css'
 import InputField from './Components/InputField'
+import OutputField from './Components/OutputField'
 
 function App() {
   const [input, setInput] = useState('**Type Some Markdown Here!**')
@@ -12,13 +12,8 @@ function App() {
 
   return (
     <>
-      <h1>Hello</h1>
-      <InputField changeTextHandler={changeInputHandler} input={input}/>
-      <article>
-        <ReactMarkdown>
-          {input}
-        </ReactMarkdown>
-      </article>
+      <InputField changeTextHandler={changeInputHandler} input={input} />
+      <OutputField output={input} />
     </>
   )
 }

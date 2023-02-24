@@ -1,5 +1,40 @@
+
+section > h1{
+  color: white;
+  
+}
+
+.input-area{
+  /* background-color: green; */
+  width: 50%;
+  padding: 15px;
+  /* height: max-content; */
+}
+
+section{
+}
 textarea{
   padding: 10px;
   border-radius: 5px;
   border: 2px solid;
+  width: 45vw;
+  margin: 10px 0;
 }
+
+.output-area{
+  /* background-color: red; */
+  min-height: 80vh;
+  width: 50%;
+  padding: 60px 20px;
+  border-left: 1px solid white;
+}
+
+article{
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 500px;
+  color: black;
+  background-color: white;
+}
+

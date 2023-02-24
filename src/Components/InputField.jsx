@@ -8,10 +8,13 @@ function InputField(props) {
     //     console.log(userInput)
     // }
     return (
-        <>
-            <textarea onChange={props.changeTextHandler} rows='30' cols='80' value={props.input}>
-            </textarea>
-        </>
+        <div className='input-area'>
+            <section>
+                <h1>Type Below</h1>
+                <textarea onChange={props.changeTextHandler} rows='35' cols='80' value={props.input}>
+                </textarea>
+            </section>
+        </div>
     )
 }
 
